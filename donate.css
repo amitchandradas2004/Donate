@@ -1,53 +1,99 @@
-
 /* Navbar section */
-.navbar{
-  background-color: #FAFAFA;
+.navbar {
+  background-color: #fafafa;
   display: flex;
   margin: 0 80px;
-  margin-bottom: 130px;
+  margin-bottom: 80px;
 }
-.nav-title{
-   padding-top: 100px;
-   text-align: start;
-
+.nav-title {
+  padding-top: 100px;
+  text-align: start;
 }
-.nav-title span{
+.nav-title span {
   font-size: 40px;
   font-weight: bold;
 }
-.nav-title p{
+.nav-title p {
   color: #707070;
 }
-.nav-btn{
-  background-color: #FF5959;
-  color: #FFFFFF;
+.nav-btn {
+  background-color: #ff5959;
+  color: #ffffff;
   width: 130px;
   height: 40px;
   font-size: 16px;
   font-weight: 400;
-  border: 1px solid #FF5959;
-  border-radius: 8px;
+  border: 1px solid #ff5959;
+  border-radius: 5px;
 }
-.nav-icon{
+.nav-btn:hover {
+  background-color: rgb(205, 205, 239);
+}
+.nav-icon {
   color: #707070;
   width: 130px;
   height: 28px;
 }
-.nav-btn-icon{
+
+.nav-btn-icon {
   display: flex;
-  gap: 30px;
-  /* justify-content: center; */
+  gap: 10px;
+  text-align: center;
 }
-.nav-img{
+.nav-img {
   background: url(./images/Ellipse\ 257.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  
 }
-.nav-img img{
+.nav-img img {
   width: 400px;
   height: 450px;
-  
 }
 /* Donate Section */
+.donate {
+  text-align: center;
+  align-content: center;
+  margin: 0 110px;
+}
+.donate-title span {
+  font-size: 40px;
+  font-weight: bold;
+}
+.donate-title p {
+  color: #707070;
+}
+.amount {
+  color: #707070;
+  font-size: 25px;
+  font-weight: bold;
+  display: flex;
+  gap: 20px;
+
+  justify-content: space-evenly;
+}
+.money {
+  width: 120px;
+  height: 100px;
+  background-color: #fdf6f6;
+  text-align: center;
+  align-content: center;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+.money:hover {
+  background-color: rgb(205, 205, 239);
+}
+.money-2 {
+  color: #ff5959;
+  border: 1px solid #ff5959;
+  background-color: #ffeeee;
+}
+
+.donate-now span {
+  color: #b3b3b3;
+  margin-bottom: 0px;
+}
+.donate-now p {
+  color: #dadada;
+}
