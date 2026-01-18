@@ -1,3 +1,7 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 /* Common */
 .p-color {
   color: #707070;
@@ -140,7 +144,7 @@
   display: flex;
   gap: 30px;
   margin: 10px 50px;
-  margin-bottom: 200px;
+  margin-bottom: 100px;
 }
 .donation-title {
   padding-top: 70px;
@@ -193,6 +197,9 @@ By Giving Of Yours */
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
 }
+.email:hover {
+  background-color: rgb(205, 205, 239);
+}
 .subscribe {
   width: 145px;
   height: 45px;
@@ -201,4 +208,24 @@ By Giving Of Yours */
   color: white;
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
+}
+.subscribe:hover {
+  background-color: rgb(205, 205, 239);
+}
+
+/* Footer section */
+footer {
+  height: 180px;
+  background-color: #0b0d17;
+  text-align: center;
+  align-content: center;
+  margin-left: 0;
+}
+.info span {
+  color: #ff5959;
+  font-size: 30px;
+  font-style: italic;
+}
+.info p {
+  color: #d9dbe1;
 }
