@@ -1,0 +1,53 @@
+
+/* Navbar section */
+.navbar{
+  background-color: #FAFAFA;
+  display: flex;
+  margin: 0 80px;
+  margin-bottom: 130px;
+}
+.nav-title{
+   padding-top: 100px;
+   text-align: start;
+
+}
+.nav-title span{
+  font-size: 40px;
+  font-weight: bold;
+}
+.nav-title p{
+  color: #707070;
+}
+.nav-btn{
+  background-color: #FF5959;
+  color: #FFFFFF;
+  width: 130px;
+  height: 40px;
+  font-size: 16px;
+  font-weight: 400;
+  border: 1px solid #FF5959;
+  border-radius: 8px;
+}
+.nav-icon{
+  color: #707070;
+  width: 130px;
+  height: 28px;
+}
+.nav-btn-icon{
+  display: flex;
+  gap: 30px;
+  /* justify-content: center; */
+}
+.nav-img{
+  background: url(./images/Ellipse\ 257.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  
+}
+.nav-img img{
+  width: 400px;
+  height: 450px;
+  
+}
+/* Donate Section */
