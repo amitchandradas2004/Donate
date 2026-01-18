@@ -140,6 +140,7 @@
   display: flex;
   gap: 30px;
   margin: 10px 50px;
+  margin-bottom: 200px;
 }
 .donation-title {
   padding-top: 70px;
@@ -148,7 +149,18 @@
 .donation-btn {
   width: 200px;
 }
-.donation-img {
-  width: 450px;
-  height: 300px;
+.donation-img img {
+  width: 350px;
+  height: 350px;
+}
+/* Give Someone’s Life
+By Giving Of Yours */
+.someones-life {
+  display: flex;
+  margin: 50px 50px;
+  gap: 50px;
+}
+.life img {
+  width: 350px;
+  height: 350px;
 }
