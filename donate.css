@@ -164,3 +164,41 @@ By Giving Of Yours */
   width: 350px;
   height: 350px;
 }
+/* Box section */
+.updates {
+  text-align: center;
+  margin-left: 100px;
+  margin-bottom: 50px;
+}
+.get {
+  margin-right: 100px;
+}
+.box {
+  display: flex;
+  width: 600px;
+  height: 150px;
+  margin-top: 40px;
+  justify-content: center;
+  background-color: #fff4d6;
+  align-items: center;
+  border-radius: 5px;
+}
+.email {
+  width: 200px;
+  height: 45px;
+  border: 0;
+  background-color: #d9d9d9;
+  text-align: start;
+  color: #aa9f9f;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.subscribe {
+  width: 145px;
+  height: 45px;
+  border: 0;
+  background-color: #ff5959;
+  color: white;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
