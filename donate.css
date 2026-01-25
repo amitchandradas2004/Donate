@@ -229,3 +229,72 @@ footer {
 .info p {
   color: #d9dbe1;
 }
+
+/* Responsive section for mobile devices */
+
+@media screen and (max-width: 576px) {
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 80px;
+    justify-content: center;
+  }
+  .nav-title {
+    /* padding-top: 100px; */
+    text-align: center;
+  }
+  .title {
+    font-size: 1.5rem;
+  }
+
+  .nav-btn {
+    background-color: #ff5959;
+    color: #ffffff;
+    width: 130px;
+    height: 40px;
+    font-size: 16px;
+    font-weight: 400;
+    border: 1px solid #ff5959;
+    border-radius: 5px;
+  }
+  .nav-icon {
+    width: 130px;
+    height: 28px;
+  }
+
+  .nav-btn-icon {
+    display: flex;
+    gap: 10px;
+    text-align: center;
+  }
+  .nav-img {
+    background: url(./images/Ellipse\ 257.png);
+    width: 80%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-self: center;
+  }
+  .nav-img img {
+    width: 100%;
+    height: 100%;
+  }
+  .donate {
+    display: none;
+  }
+  .donate-plan {
+    display: none;
+  }
+  .donation {
+    display: none;
+  }
+  .someones-life {
+    display: none;
+  }
+  .updates {
+    display: none;
+  }
+  footer {
+    display: none;
+  }
+}
