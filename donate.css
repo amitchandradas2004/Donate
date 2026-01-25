@@ -240,7 +240,7 @@ footer {
     justify-content: center;
   }
   .nav-title {
-    padding-top: 30px;
+    padding-top: 10px;
     text-align: center;
   }
   .title {
@@ -250,43 +250,47 @@ footer {
   .nav-btn {
     background-color: #ff5959;
     color: #ffffff;
-    width: 130px;
-    height: 40px;
-    font-size: 16px;
-    font-weight: 400;
+    width: 100px;
+    height: 30px;
+    font-size: 0.5rem;
+    font-weight: 700;
     border: 1px solid #ff5959;
     border-radius: 5px;
+    text-align: center;
+    align-content: center;
   }
   .nav-icon {
-    width: 130px;
-    height: 28px;
+    width: 100px;
+    height: 30px;
     background-color: #ff5959;
     color: #ffffff;
-    width: 130px;
+    width: 100px;
     height: 30px;
-    padding-top: 10px;
-    font-size: 1rem;
-    font-weight: 600;
+    text-align: center;
+    align-content: center;
+    font-size: 0.5rem;
+    font-weight: 700;
     border: 1px solid #ff5959;
     border-radius: 5px;
-    
   }
 
   .nav-btn-icon {
     justify-self: center;
     text-align: center;
+    width: 60%;
   }
   .nav-img {
     width: 80%;
   }
   .nav-img img {
-    width: 100%;
-    height: 100%;
-    justify-self: center;
+    width: 90%;
+    height: 90%;
+    align-content: center;
+    justify-content: center;
   }
-  .donate {
-    display: none;
-  }
+  
+
+  
   .donate-plan {
     display: none;
   }
