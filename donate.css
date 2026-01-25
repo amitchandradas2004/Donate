@@ -240,7 +240,7 @@ footer {
     justify-content: center;
   }
   .nav-title {
-    /* padding-top: 100px; */
+    padding-top: 30px;
     text-align: center;
   }
   .title {
@@ -260,24 +260,29 @@ footer {
   .nav-icon {
     width: 130px;
     height: 28px;
+    background-color: #ff5959;
+    color: #ffffff;
+    width: 130px;
+    height: 30px;
+    padding-top: 10px;
+    font-size: 1rem;
+    font-weight: 600;
+    border: 1px solid #ff5959;
+    border-radius: 5px;
+    
   }
 
   .nav-btn-icon {
-    display: flex;
-    gap: 10px;
+    justify-self: center;
     text-align: center;
   }
   .nav-img {
-    background: url(./images/Ellipse\ 257.png);
     width: 80%;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    justify-self: center;
   }
   .nav-img img {
     width: 100%;
     height: 100%;
+    justify-self: center;
   }
   .donate {
     display: none;
